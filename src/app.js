@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Configurar CORS
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://ivitappec.onrender.com/login'], // Cambia esto al dominio de tu frontend
+    origin: ['http://localhost:5173', 'https://ivitappec.onrender.com'], // Cambia esto al dominio de tu frontend
     credentials: true
 }));
 
